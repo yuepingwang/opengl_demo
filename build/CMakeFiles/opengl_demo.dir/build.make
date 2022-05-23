@@ -69,19 +69,19 @@ include CMakeFiles/opengl_demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opengl_demo.dir/flags.make
 
-CMakeFiles/opengl_demo.dir/main.cpp.o: CMakeFiles/opengl_demo.dir/flags.make
-CMakeFiles/opengl_demo.dir/main.cpp.o: ../main.cpp
-CMakeFiles/opengl_demo.dir/main.cpp.o: CMakeFiles/opengl_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl_demo.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_demo.dir/main.cpp.o -MF CMakeFiles/opengl_demo.dir/main.cpp.o.d -o CMakeFiles/opengl_demo.dir/main.cpp.o -c /Users/yuepingwang/Desktop/opengl_demo/main.cpp
+CMakeFiles/opengl_demo.dir/src/main.cpp.o: CMakeFiles/opengl_demo.dir/flags.make
+CMakeFiles/opengl_demo.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/opengl_demo.dir/src/main.cpp.o: CMakeFiles/opengl_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl_demo.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_demo.dir/src/main.cpp.o -MF CMakeFiles/opengl_demo.dir/src/main.cpp.o.d -o CMakeFiles/opengl_demo.dir/src/main.cpp.o -c /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp
 
-CMakeFiles/opengl_demo.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_demo.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuepingwang/Desktop/opengl_demo/main.cpp > CMakeFiles/opengl_demo.dir/main.cpp.i
+CMakeFiles/opengl_demo.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_demo.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp > CMakeFiles/opengl_demo.dir/src/main.cpp.i
 
-CMakeFiles/opengl_demo.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_demo.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuepingwang/Desktop/opengl_demo/main.cpp -o CMakeFiles/opengl_demo.dir/main.cpp.s
+CMakeFiles/opengl_demo.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_demo.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp -o CMakeFiles/opengl_demo.dir/src/main.cpp.s
 
 CMakeFiles/opengl_demo.dir/lib/glad.c.o: CMakeFiles/opengl_demo.dir/flags.make
 CMakeFiles/opengl_demo.dir/lib/glad.c.o: ../lib/glad.c
@@ -99,13 +99,13 @@ CMakeFiles/opengl_demo.dir/lib/glad.c.s: cmake_force
 
 # Object files for target opengl_demo
 opengl_demo_OBJECTS = \
-"CMakeFiles/opengl_demo.dir/main.cpp.o" \
+"CMakeFiles/opengl_demo.dir/src/main.cpp.o" \
 "CMakeFiles/opengl_demo.dir/lib/glad.c.o"
 
 # External object files for target opengl_demo
 opengl_demo_EXTERNAL_OBJECTS =
 
-opengl_demo: CMakeFiles/opengl_demo.dir/main.cpp.o
+opengl_demo: CMakeFiles/opengl_demo.dir/src/main.cpp.o
 opengl_demo: CMakeFiles/opengl_demo.dir/lib/glad.c.o
 opengl_demo: CMakeFiles/opengl_demo.dir/build.make
 opengl_demo: /usr/local/lib/libglfw.3.3.dylib

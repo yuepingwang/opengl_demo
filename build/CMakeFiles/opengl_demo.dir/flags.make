@@ -5,7 +5,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/usr/local/include/glad/include -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks
+C_INCLUDES = -I/usr/local/include/glad/include -I/Users/yuepingwang/Desktop/opengl_demo/lib/eigen -I/Users/yuepingwang/Desktop/opengl_demo/libigl/include -I/Users/yuepingwang/Desktop/opengl_demo/src -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks
 
 C_FLAGSx86_64 =  -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
 
@@ -13,7 +13,7 @@ C_FLAGS =  -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Pla
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include/glad/include -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/usr/local/include/glad/include -I/Users/yuepingwang/Desktop/opengl_demo/lib/eigen -I/Users/yuepingwang/Desktop/opengl_demo/libigl/include -I/Users/yuepingwang/Desktop/opengl_demo/src -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks
 
 CXX_FLAGSx86_64 =  -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
 
