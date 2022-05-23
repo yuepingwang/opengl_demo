@@ -1,0 +1,3 @@
+/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles/opengl_demo.dir
+/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles/edit_cache.dir
+/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles/rebuild_cache.dir

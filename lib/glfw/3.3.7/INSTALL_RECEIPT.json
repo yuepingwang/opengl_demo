@@ -1,0 +1,45 @@
+{
+  "homebrew_version": "3.4.5-29-gc65bb5d",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "lib/pkgconfig/glfw3.pc"
+  ],
+  "time": 1653267159,
+  "source_modified_time": 1647788635,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "3.3.7",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/glfw.rb",
+    "tap_git_head": "66370156796ec86eaf0888d0b821a6c0030e9143",
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 12.2",
+    "cpu_family": "penryn",
+    "xcode": "13.3",
+    "clt": "13.3.0.0.1.1645755326",
+    "preferred_perl": "5.30"
+  }
+}
