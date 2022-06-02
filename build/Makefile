@@ -153,6 +153,30 @@ lib/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_demo.dir/build.make CMakeFiles/opengl_demo.dir/lib/glad.c.s
 .PHONY : lib/glad.c.s
 
+src/Helpers.o: src/Helpers.cpp.o
+.PHONY : src/Helpers.o
+
+# target to build an object file
+src/Helpers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_demo.dir/build.make CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o
+.PHONY : src/Helpers.cpp.o
+
+src/Helpers.i: src/Helpers.cpp.i
+.PHONY : src/Helpers.i
+
+# target to preprocess a source file
+src/Helpers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_demo.dir/build.make CMakeFiles/opengl_demo.dir/src/Helpers.cpp.i
+.PHONY : src/Helpers.cpp.i
+
+src/Helpers.s: src/Helpers.cpp.s
+.PHONY : src/Helpers.s
+
+# target to generate assembly for a file
+src/Helpers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_demo.dir/build.make CMakeFiles/opengl_demo.dir/src/Helpers.cpp.s
+.PHONY : src/Helpers.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... lib/glad.o"
 	@echo "... lib/glad.i"
 	@echo "... lib/glad.s"
+	@echo "... src/Helpers.o"
+	@echo "... src/Helpers.i"
+	@echo "... src/Helpers.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

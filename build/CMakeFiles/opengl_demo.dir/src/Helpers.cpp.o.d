@@ -1,5 +1,5 @@
-CMakeFiles/opengl_demo.dir/src/main.cpp.o: \
-  /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp \
+CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o: \
+  /Users/yuepingwang/Desktop/opengl_demo/src/Helpers.cpp \
   /Users/yuepingwang/Desktop/opengl_demo/src/Helpers.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
@@ -344,73 +344,8 @@ CMakeFiles/opengl_demo.dir/src/main.cpp.o: \
   /usr/local/include/glad/include/KHR/khrplatform.h \
   /Users/yuepingwang/Desktop/opengl_demo/src/../lib/glfw/3.3.7/include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/Dense \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/LU \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/misc/Solve.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/misc/Kernel.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/misc/Image.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/LU/FullPivLU.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/LU/PartialPivLU.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/LU/Determinant.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/LU/Inverse.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/LU/arch/Inverse_SSE.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/Cholesky \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Cholesky/LLT.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Cholesky/LDLT.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/QR \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/Jacobi \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Jacobi/Jacobi.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/Householder \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Householder/Householder.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Householder/HouseholderSequence.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Householder/BlockHouseholder.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/QR/HouseholderQR.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/QR/FullPivHouseholderQR.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/QR/ColPivHouseholderQR.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/SVD \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/SVD/JacobiSVD.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/SVD/UpperBidiagonalization.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/Geometry \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/OrthoMethods.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/EulerAngles.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Homogeneous.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/RotationBase.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Rotation2D.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Quaternion.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/AngleAxis.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Transform.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Translation.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Scaling.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Hyperplane.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/ParametrizedLine.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/AlignedBox.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/Umeyama.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Geometry/arch/Geometry_SSE.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/Eigenvalues \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/Tridiagonalization.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/RealSchur.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/EigenSolver.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/./RealSchur.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/./Tridiagonalization.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/ComplexSchur.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/./ComplexSchur.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/RealQZ.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/./RealQZ.h \
-  /Users/yuepingwang/Desktop/opengl_demo/lib/eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/readOFF.h \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/igl_inline.h \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/readOFF.cpp \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/list_to_matrix.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/array \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/list_to_matrix.cpp \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/max_size.h \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/max_size.cpp \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/min_size.h \
-  /Users/yuepingwang/Desktop/opengl_demo/libigl/include/igl/min_size.cpp \
-  /Users/yuepingwang/Desktop/opengl_demo/src/callback_2D.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/fstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iomanip

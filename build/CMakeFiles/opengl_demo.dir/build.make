@@ -69,24 +69,10 @@ include CMakeFiles/opengl_demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opengl_demo.dir/flags.make
 
-CMakeFiles/opengl_demo.dir/src/main.cpp.o: CMakeFiles/opengl_demo.dir/flags.make
-CMakeFiles/opengl_demo.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/opengl_demo.dir/src/main.cpp.o: CMakeFiles/opengl_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl_demo.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_demo.dir/src/main.cpp.o -MF CMakeFiles/opengl_demo.dir/src/main.cpp.o.d -o CMakeFiles/opengl_demo.dir/src/main.cpp.o -c /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp
-
-CMakeFiles/opengl_demo.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_demo.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp > CMakeFiles/opengl_demo.dir/src/main.cpp.i
-
-CMakeFiles/opengl_demo.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_demo.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp -o CMakeFiles/opengl_demo.dir/src/main.cpp.s
-
 CMakeFiles/opengl_demo.dir/lib/glad.c.o: CMakeFiles/opengl_demo.dir/flags.make
 CMakeFiles/opengl_demo.dir/lib/glad.c.o: ../lib/glad.c
 CMakeFiles/opengl_demo.dir/lib/glad.c.o: CMakeFiles/opengl_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/opengl_demo.dir/lib/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/opengl_demo.dir/lib/glad.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/opengl_demo.dir/lib/glad.c.o -MF CMakeFiles/opengl_demo.dir/lib/glad.c.o.d -o CMakeFiles/opengl_demo.dir/lib/glad.c.o -c /Users/yuepingwang/Desktop/opengl_demo/lib/glad.c
 
 CMakeFiles/opengl_demo.dir/lib/glad.c.i: cmake_force
@@ -97,21 +83,51 @@ CMakeFiles/opengl_demo.dir/lib/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opengl_demo.dir/lib/glad.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yuepingwang/Desktop/opengl_demo/lib/glad.c -o CMakeFiles/opengl_demo.dir/lib/glad.c.s
 
+CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o: CMakeFiles/opengl_demo.dir/flags.make
+CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o: ../src/Helpers.cpp
+CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o: CMakeFiles/opengl_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o -MF CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o.d -o CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o -c /Users/yuepingwang/Desktop/opengl_demo/src/Helpers.cpp
+
+CMakeFiles/opengl_demo.dir/src/Helpers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_demo.dir/src/Helpers.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuepingwang/Desktop/opengl_demo/src/Helpers.cpp > CMakeFiles/opengl_demo.dir/src/Helpers.cpp.i
+
+CMakeFiles/opengl_demo.dir/src/Helpers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_demo.dir/src/Helpers.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuepingwang/Desktop/opengl_demo/src/Helpers.cpp -o CMakeFiles/opengl_demo.dir/src/Helpers.cpp.s
+
+CMakeFiles/opengl_demo.dir/src/main.cpp.o: CMakeFiles/opengl_demo.dir/flags.make
+CMakeFiles/opengl_demo.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/opengl_demo.dir/src/main.cpp.o: CMakeFiles/opengl_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opengl_demo.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_demo.dir/src/main.cpp.o -MF CMakeFiles/opengl_demo.dir/src/main.cpp.o.d -o CMakeFiles/opengl_demo.dir/src/main.cpp.o -c /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp
+
+CMakeFiles/opengl_demo.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl_demo.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp > CMakeFiles/opengl_demo.dir/src/main.cpp.i
+
+CMakeFiles/opengl_demo.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl_demo.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuepingwang/Desktop/opengl_demo/src/main.cpp -o CMakeFiles/opengl_demo.dir/src/main.cpp.s
+
 # Object files for target opengl_demo
 opengl_demo_OBJECTS = \
-"CMakeFiles/opengl_demo.dir/src/main.cpp.o" \
-"CMakeFiles/opengl_demo.dir/lib/glad.c.o"
+"CMakeFiles/opengl_demo.dir/lib/glad.c.o" \
+"CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o" \
+"CMakeFiles/opengl_demo.dir/src/main.cpp.o"
 
 # External object files for target opengl_demo
 opengl_demo_EXTERNAL_OBJECTS =
 
-opengl_demo: CMakeFiles/opengl_demo.dir/src/main.cpp.o
 opengl_demo: CMakeFiles/opengl_demo.dir/lib/glad.c.o
+opengl_demo: CMakeFiles/opengl_demo.dir/src/Helpers.cpp.o
+opengl_demo: CMakeFiles/opengl_demo.dir/src/main.cpp.o
 opengl_demo: CMakeFiles/opengl_demo.dir/build.make
 opengl_demo: /usr/local/lib/libglfw.3.3.dylib
 opengl_demo: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
 opengl_demo: CMakeFiles/opengl_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable opengl_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yuepingwang/Desktop/opengl_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable opengl_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opengl_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
